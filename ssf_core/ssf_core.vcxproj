@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{428AD14E-555A-425C-8822-5941CB7D88C0}</ProjectGuid>
+    <RootNamespace>ssf_core</RootNamespace>
+    <ProjectName>SSFCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)\$(Configuration)\</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <IncludePath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\lib;$(LibraryPath)</LibraryPath>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)\$(Configuration)\</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <IncludePath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\lib;$(LibraryPath)</LibraryPath>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_MBCS;USE_STANDARD_FILE_FUNCTIONS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <MultiProcessorCompilation>
+      </MultiProcessorCompilation>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ForcedIncludeFiles>"stdafx.h"</ForcedIncludeFiles>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opencv_core246d.lib;opencv_imgproc246d.lib;opencv_highgui246d.lib;opencv_ml246d.lib;opencv_video246d.lib;opencv_features2d246d.lib;opencv_calib3d246d.lib;opencv_objdetect246d.lib;opencv_contrib246d.lib;opencv_legacy246d.lib;opencv_flann246d.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_MBCS;USE_STANDARD_FILE_FUNCTIONS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>"stdafx.h"</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_core246.lib;opencv_imgproc246.lib;opencv_highgui246.lib;opencv_ml246.lib;opencv_video246.lib;opencv_features2d246.lib;opencv_calib3d246.lib;opencv_objdetect246.lib;opencv_contrib246.lib;opencv_legacy246.lib;opencv_flann246.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Lib />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ap.h" />
+    <ClInclude Include="apvt.h" />
+    <ClInclude Include="ClassificationControl.h" />
+    <ClInclude Include="ClassificationDefs.h" />
+    <ClInclude Include="ClassificationMethod.h" />
+    <ClInclude Include="FeatBlockInfo.h" />
+    <ClInclude Include="FES.h" />
+    <ClInclude Include="FESCoocurrence.h" />
+    <ClInclude Include="FESBlocks.h" />
+    <ClInclude Include="FESCache.h" />
+    <ClInclude Include="co_occurrence_general.h" />
+    <ClInclude Include="FESData.h" />
+    <ClInclude Include="FESDefs.h" />
+    <ClInclude Include="FESIntensity.h" />
+    <ClInclude Include="FESMethodInstance.h" />
+    <ClInclude Include="FESTemplateMethod.h" />
+    <ClInclude Include="FESMemoryManagement.h" />
+    <ClInclude Include="FESControl.h" />
+    <ClInclude Include="FESRegion.h" />
+    <ClInclude Include="FESRequest.h" />
+    <ClInclude Include="HistogramFeature.h" />
+    <ClInclude Include="HOG.h" />
+    <ClInclude Include="FESMethodManager.h" />
+    <ClInclude Include="DetWin.h" />
+    <ClInclude Include="ExtractionControl.h" />
+    <ClInclude Include="ExtractionMethod.h" />
+    <ClInclude Include="FeatureBlocks.h" />
+    <ClInclude Include="FeatureExtractionDefs.h" />
+    <ClInclude Include="FeatureMethods.h" />
+    <ClInclude Include="files.h" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="IntensityFeature.h" />
+    <ClInclude Include="LAP.h" />
+    <ClInclude Include="LBP.h" />
+    <ClInclude Include="LBPFeature.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="parameters.h" />
+    <ClInclude Include="pls.h" />
+    <ClInclude Include="pls_oaa.h" />
+    <ClInclude Include="PredominanceFilter.h" />
+    <ClInclude Include="QDA.h" />
+    <ClInclude Include="qr.h" />
+    <ClInclude Include="reflections.h" />
+    <ClInclude Include="ScaleInfo.h" />
+    <ClInclude Include="shared_memory.h" />
+    <ClInclude Include="slic.h" />
+    <ClInclude Include="SMDataKey.h" />
+    <ClInclude Include="SMDataStream.h" />
+    <ClInclude Include="SMManager.h" />
+    <ClInclude Include="SSFAsync.h" />
+    <ClInclude Include="SSFCamera.h" />
+    <ClInclude Include="SSFCore.h" />
+    <ClInclude Include="SSFData.h" />
+    <ClInclude Include="SSFDetwins.h" />
+    <ClInclude Include="SSFDict.h" />
+    <ClInclude Include="SSFEOD.h" />
+    <ClInclude Include="SSFExecutionControl.h" />
+    <ClInclude Include="SSFExecutionSequence.h" />
+    <ClInclude Include="SSFFeatures.h" />
+    <ClInclude Include="SSFFeed.h" />
+    <ClInclude Include="SSFFrame.h" />
+    <ClInclude Include="SSFGarbageCollector.h" />
+    <ClInclude Include="FESHOG.h" />
+    <ClInclude Include="SSFImage.h" />
+    <ClInclude Include="SSFInfo.h" />
+    <ClInclude Include="SSFInternalModule.h" />
+    <ClInclude Include="SSFInvertedList.h" />
+    <ClInclude Include="SSFLAPData.h" />
+    <ClInclude Include="SSFMath.h" />
+    <ClInclude Include="SSFMethod.h" />
+    <ClInclude Include="SSFMethodControl.h" />
+    <ClInclude Include="SSFMethodNonThread.h" />
+    <ClInclude Include="SSFMethodThread.h" />
+    <ClInclude Include="SSFParameters.h" />
+    <ClInclude Include="SSFQueue.h" />
+    <ClInclude Include="SSFObject.h" />
+    <ClInclude Include="SSFObjectCandidates.h" />
+    <ClInclude Include="SSFRect.h" />
+    <ClInclude Include="SSFSample.h" />
+    <ClInclude Include="SSFSamples.h" />
+    <ClInclude Include="SSFSlidingWindow.h" />
+    <ClInclude Include="SSFStatistics.h" />
+    <ClInclude Include="SSFStorage.h" />
+    <ClInclude Include="SSFString.h" />
+    <ClInclude Include="SSFStructure.h" />
+    <ClInclude Include="SSFThreads.h" />
+    <ClInclude Include="SSFThreadsControl.h" />
+    <ClInclude Include="SSFTracklet.h" />
+    <ClInclude Include="SSFTree.h" />
+    <ClInclude Include="SSFUserData.h" />
+    <ClInclude Include="SSFUserModule.h" />
+    <ClInclude Include="SSF_SVM.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="structures.h" />
+    <ClInclude Include="timeProfiler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ap.cpp" />
+    <ClCompile Include="ClassificationControl.cpp" />
+    <ClCompile Include="ClassificationMethod.cpp" />
+    <ClCompile Include="FESBlocks.cpp" />
+    <ClCompile Include="FESCache.cpp" />
+    <ClCompile Include="FESCoocurrence.cpp" />
+    <ClCompile Include="co_occurrence_general.cpp" />
+    <ClCompile Include="FESData.cpp" />
+    <ClCompile Include="FESIntensity.cpp" />
+    <ClCompile Include="FESMethodInstance.cpp" />
+    <ClCompile Include="FESTemplateMethod.cpp" />
+    <ClCompile Include="FESMemoryManagement.cpp" />
+    <ClCompile Include="FESControl.cpp" />
+    <ClCompile Include="FESRegion.cpp" />
+    <ClCompile Include="FESRequest.cpp" />
+    <ClCompile Include="HistogramFeature.cpp" />
+    <ClCompile Include="HOG.cpp" />
+    <ClCompile Include="FESMethodManager.cpp" />
+    <ClCompile Include="DetWin.cpp" />
+    <ClCompile Include="ExtractionControl.cpp" />
+    <ClCompile Include="FeatureBlocks.cpp" />
+    <ClCompile Include="FeatureMethods.cpp" />
+    <ClCompile Include="files.cpp" />
+    <ClCompile Include="IntensityFeature.cpp" />
+    <ClCompile Include="LAP.cpp" />
+    <ClCompile Include="LBP.cpp" />
+    <ClCompile Include="LBPFeature.cpp" />
+    <ClCompile Include="misc.cpp" />
+    <ClCompile Include="parameters.cpp" />
+    <ClCompile Include="pls.cpp" />
+    <ClCompile Include="pls_oaa.cpp" />
+    <ClCompile Include="PredominanceFilter.cpp" />
+    <ClCompile Include="QDA.cpp" />
+    <ClCompile Include="qr.cpp" />
+    <ClCompile Include="reflections.cpp" />
+    <ClCompile Include="shared_memory.cpp" />
+    <ClCompile Include="slic.cpp" />
+    <ClCompile Include="SMDataKey.cpp" />
+    <ClCompile Include="SMDataStream.cpp" />
+    <ClCompile Include="SMManager.cpp" />
+    <ClCompile Include="SSFAsync.cpp" />
+    <ClCompile Include="SSFCamera.cpp" />
+    <ClCompile Include="SSFData.cpp" />
+    <ClCompile Include="SSFDetwins.cpp" />
+    <ClCompile Include="SSFDict.cpp" />
+    <ClCompile Include="SSFEOD.cpp" />
+    <ClCompile Include="SSFExecutionControl.cpp" />
+    <ClCompile Include="SSFExecutionSequence.cpp" />
+    <ClCompile Include="SSFFeatures.cpp" />
+    <ClCompile Include="SSFFeed.cpp" />
+    <ClCompile Include="SSFFrame.cpp" />
+    <ClCompile Include="SSFGarbageCollector.cpp" />
+    <ClCompile Include="FESHOG.cpp" />
+    <ClCompile Include="SSFImage.cpp" />
+    <ClCompile Include="SSFInfo.cpp" />
+    <ClCompile Include="SSFInternalModule.cpp" />
+    <ClCompile Include="SSFInvertedList.cpp" />
+    <ClCompile Include="SSFLAPData.cpp" />
+    <ClCompile Include="SSFMath.cpp" />
+    <ClCompile Include="SSFMethod.cpp" />
+    <ClCompile Include="SSFMethodControl.cpp" />
+    <ClCompile Include="SSFMethodNonThread.cpp" />
+    <ClCompile Include="SSFMethodThread.cpp" />
+    <ClCompile Include="SSFObject.cpp" />
+    <ClCompile Include="SSFObjectCandidates.cpp" />
+    <ClCompile Include="SSFParameters.cpp" />
+    <ClCompile Include="SSFRect.cpp" />
+    <ClCompile Include="SSFSample.cpp" />
+    <ClCompile Include="SSFSamples.cpp" />
+    <ClCompile Include="SSFSlidingWindow.cpp" />
+    <ClCompile Include="SSFStatistics.cpp" />
+    <ClCompile Include="SSFStorage.cpp" />
+    <ClCompile Include="SSFString.cpp" />
+    <ClCompile Include="SSFStructure.cpp" />
+    <ClCompile Include="SSFThreads.cpp" />
+    <ClCompile Include="SSFThreadsControl.cpp" />
+    <ClCompile Include="SSFTracklet.cpp" />
+    <ClCompile Include="SSFUserData.cpp" />
+    <ClCompile Include="SSFUserModule.cpp" />
+    <ClCompile Include="SSF_SVM.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="structures.cpp" />
+    <ClCompile Include="timeProfiler.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

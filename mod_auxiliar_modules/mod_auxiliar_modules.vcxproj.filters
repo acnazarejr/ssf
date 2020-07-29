@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ModDetectionEvaluation.h">
+      <Filter>Detection Evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModFeatureExtraction.h">
+      <Filter>Feature Extraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEvaluateRecognition.h">
+      <Filter>Evaluate Recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="ModNMS.h">
+      <Filter>NMS</Filter>
+    </ClInclude>
+    <ClInclude Include="ModObjectCandidates2Object.h">
+      <Filter>Object Candidates 2 Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ModBowReid.h">
+      <Filter>Reidentification</Filter>
+    </ClInclude>
+    <ClInclude Include="ModScaleManager.h">
+      <Filter>ScaleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModSplitYML.h">
+      <Filter>Split YML</Filter>
+    </ClInclude>
+    <ClInclude Include="ModTracklet2ObjectCandidates.h">
+      <Filter>Tracklet 2 Object Candidates</Filter>
+    </ClInclude>
+    <ClInclude Include="ModSlidingWindow2Samples.h">
+      <Filter>SlidingWindow2Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="ModTestMultiOutput.h">
+      <Filter>Multi Output Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ModTestMultiOutputIn.h">
+      <Filter>Multi Output Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModDetectionEvaluation.cpp">
+      <Filter>Detection Evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModFeatureExtraction.cpp">
+      <Filter>Feature Extraction</Filter>
+    </ClCompile>
+    <ClCompile Include="ModEvaluateRecognition.cpp">
+      <Filter>Evaluate Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="ModNMS.cpp">
+      <Filter>NMS</Filter>
+    </ClCompile>
+    <ClCompile Include="ModObjectCandidates2Object.cpp">
+      <Filter>Object Candidates 2 Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ModBowReid.cpp">
+      <Filter>Reidentification</Filter>
+    </ClCompile>
+    <ClCompile Include="ModScaleManager.cpp">
+      <Filter>ScaleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModSplitYML.cpp">
+      <Filter>Split YML</Filter>
+    </ClCompile>
+    <ClCompile Include="ModTracklet2ObjectCandidates.cpp">
+      <Filter>Tracklet 2 Object Candidates</Filter>
+    </ClCompile>
+    <ClCompile Include="ModSlidingWindow2Samples.cpp">
+      <Filter>SlidingWindow2Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="ModTestMultiOutput.cpp">
+      <Filter>Multi Output Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ModTestMultiOutputIn.cpp">
+      <Filter>Multi Output Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NMS">
+      <UniqueIdentifier>{03f92032-cbb3-45e1-87d3-4ac559085d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SlidingWindow2Samples">
+      <UniqueIdentifier>{bd009f15-22d6-4200-9d6c-497e9beaaf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScaleManager">
+      <UniqueIdentifier>{ac768ae8-56fb-4a04-a593-d6ccceef10c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detection Evaluation">
+      <UniqueIdentifier>{eb3a142f-2896-4577-8494-e0f4db3ea419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Split YML">
+      <UniqueIdentifier>{92fcc737-0dab-4d39-a315-b0443bb4915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Evaluate Recognition">
+      <UniqueIdentifier>{998cadd8-b818-4e9f-b917-df9998465ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Candidates 2 Object">
+      <UniqueIdentifier>{feebce9b-4e33-44e5-9447-4388d88363ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracklet 2 Object Candidates">
+      <UniqueIdentifier>{3df58a4f-427b-4b64-851d-566932288bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction">
+      <UniqueIdentifier>{d529b3c7-5845-4e3b-a76c-ca475e3cba09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reidentification">
+      <UniqueIdentifier>{2e08b36a-1a30-440b-9dcd-34e882fabdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multi Output Test">
+      <UniqueIdentifier>{21b8b31c-6db0-46b2-b94c-8b6c8b6a51f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

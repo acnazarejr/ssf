@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ModBGSMethods.h">
+      <Filter>BGSMethods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BGSMethods">
+      <UniqueIdentifier>{93105b68-3e42-41ea-b8c6-14ecb135d4b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModBGSMethods.cpp">
+      <Filter>BGSMethods</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

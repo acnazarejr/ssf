@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{3aafdd8d-1636-418f-aca5-13761ed2ddec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSF">
+      <UniqueIdentifier>{25e705c0-d839-41e9-84ad-f0ac1162ff72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{86955e67-d453-4b90-83f0-d4ae475fa700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{68d8003d-288b-43d7-b91e-773748de3e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory">
+      <UniqueIdentifier>{e6e26ced-7335-430f-a74d-42debcb75262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction">
+      <UniqueIdentifier>{285cf2e5-2ecc-40eb-835a-59765f75a7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods">
+      <UniqueIdentifier>{ab631d1c-5af3-4686-a129-108cc43b3a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods\Intensity">
+      <UniqueIdentifier>{1bf672aa-e065-4507-84f4-10f4282181c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execution Control">
+      <UniqueIdentifier>{f925f4a3-15b1-487c-aad4-749b9d09226d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods">
+      <UniqueIdentifier>{28790aab-ecc4-4951-b689-5c54ab9df88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Control">
+      <UniqueIdentifier>{965fefb9-92fe-46d6-8344-ba48d0f187e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Template Method">
+      <UniqueIdentifier>{f86faeef-843c-4603-8bae-16593c6339f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Methods">
+      <UniqueIdentifier>{1339cd79-b4f2-47d7-920e-ff1cf50f9e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Methods\PLS One-Against-All">
+      <UniqueIdentifier>{f633e12b-3fd7-4d81-ab1e-c82d584a23b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Aux">
+      <UniqueIdentifier>{3bbd1177-0057-4b79-8e16-aabb8aca1131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Control">
+      <UniqueIdentifier>{7ebf0b6b-d130-4279-8043-3f8928c6b33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Template Method">
+      <UniqueIdentifier>{ba417be3-48dd-4c87-9482-36ca4c424382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Data">
+      <UniqueIdentifier>{8277cb4d-875b-4e1a-aae1-bc595dab7569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\DetWin">
+      <UniqueIdentifier>{18b89b7f-90c5-4957-98b7-e1c041c39394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Methods\QDA">
+      <UniqueIdentifier>{57f59249-828e-4a08-9160-55ebb2b4a6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods\LBP">
+      <UniqueIdentifier>{044eae6d-f4e4-492b-9533-aab1a67d7522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Management">
+      <UniqueIdentifier>{f7efe8e7-ddbb-4b18-b1cb-a0f81e31c4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures">
+      <UniqueIdentifier>{212ad308-2f97-4260-820e-fa3fed5cdd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFFeatures">
+      <UniqueIdentifier>{f518719c-be91-4d56-9aa3-de7401318828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFRect">
+      <UniqueIdentifier>{2b70defe-d935-4236-98e1-cbaf322cb1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFData">
+      <UniqueIdentifier>{bea8a5f3-d899-4e25-9cd0-af9620442a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFCamera">
+      <UniqueIdentifier>{8cb8dc77-637a-4319-85ae-205d77b9c9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFFeed">
+      <UniqueIdentifier>{3652f9c6-b84b-48c6-96a7-3ad4c0dcbb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFFrame">
+      <UniqueIdentifier>{d172b905-0ca6-481d-b9cb-a18780b5faf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFLAPData">
+      <UniqueIdentifier>{9a54ae6d-d890-4763-bab5-a4c3b130f5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFSamples">
+      <UniqueIdentifier>{f64dd98f-82a3-4a1b-8724-fd5ccabbcf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFSample">
+      <UniqueIdentifier>{0735a6bc-85f4-4189-9939-ac274066e499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFString">
+      <UniqueIdentifier>{2d102501-63ad-4526-860e-5e6226991e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFTracklet">
+      <UniqueIdentifier>{b7335c82-27f1-47e2-abde-dd29d3a88c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFSlidingWindows">
+      <UniqueIdentifier>{a5a8bfa7-9b9b-4233-99fd-52867a880c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFObject">
+      <UniqueIdentifier>{18bc2428-1968-4512-b683-a2d32a124792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFUserData">
+      <UniqueIdentifier>{c0f7ab72-bd96-47f5-ba52-26f75ee734ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFImage">
+      <UniqueIdentifier>{4fc8beea-26b9-4330-ae70-2413d7396229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFDict">
+      <UniqueIdentifier>{b270f688-841a-4acd-97d5-ec94e7c3ca5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFInvertedList">
+      <UniqueIdentifier>{984fa3fe-fc99-4215-8c78-8890f8897824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{4623201a-44fd-4c93-a295-0b778a9824cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFThreads">
+      <UniqueIdentifier>{f2c75174-0703-4693-a527-d49c290f66b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStorage">
+      <UniqueIdentifier>{e81a8548-db08-42ff-a502-bc464001aac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Parameters">
+      <UniqueIdentifier>{85bcca2d-4700-4f54-b5d0-2f9a21c28c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Files">
+      <UniqueIdentifier>{57272a4c-0b60-4397-a14b-584f2e27d886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFDetwins">
+      <UniqueIdentifier>{ea76f8e3-d7e9-48e2-a057-99981dac625f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\ScaleInfo">
+      <UniqueIdentifier>{7d21776e-0641-4cfb-b90f-13d1c5687d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods\Color Histogram">
+      <UniqueIdentifier>{550e099f-f023-455e-80ea-574b1a15ae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods\Predominance Filter">
+      <UniqueIdentifier>{c8aa2d6c-15bc-49c8-b168-33a771ceeb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFObjectCandidates">
+      <UniqueIdentifier>{30da97ba-5ef2-48d0-a1e0-96d63e930908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Auxiliar">
+      <UniqueIdentifier>{345f6698-3ab0-4fcd-949f-c322f4ac1c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFAsync">
+      <UniqueIdentifier>{d3fc21a6-e51a-4612-b98d-d66bcc71e40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classification Methods\Methods\SVM">
+      <UniqueIdentifier>{b21f63e6-acd8-4cdb-be5c-a5955707745a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Extraction\Methods\HOG">
+      <UniqueIdentifier>{a2d939b1-f605-4a95-87f3-009ed56cb76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Memory\Structures\SSFEOD">
+      <UniqueIdentifier>{3e8f6b32-41a9-405a-9d05-8fac80bcac51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server">
+      <UniqueIdentifier>{34da7df9-420e-4e10-b3ea-85b245cd9389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Aux">
+      <UniqueIdentifier>{722fb9a3-64c8-40ab-a330-b5a8b770b6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Methods">
+      <UniqueIdentifier>{70d61410-6bef-405d-8e2e-efd42e305739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Execution Threads">
+      <UniqueIdentifier>{ffea28af-ff40-4a19-bff0-bdfad98a09b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Internal Module">
+      <UniqueIdentifier>{19b857c5-600b-4c68-9004-06ab75f7f183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Time Profiler">
+      <UniqueIdentifier>{6fb1dfd5-8013-4156-8712-062c0e1f66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Methods\Co-occurrence">
+      <UniqueIdentifier>{c609bd34-0eae-466c-b39e-e2d617beb4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Methods\Intensity">
+      <UniqueIdentifier>{21825ff5-9124-4bde-be65-2376e2a7a90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Methods\HOG">
+      <UniqueIdentifier>{aaf6713b-fc76-4c6a-9cb0-474703f6abc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFQueue">
+      <UniqueIdentifier>{b74bcf62-d797-4b0d-981d-d3e7722bd350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extraction Server\Structures">
+      <UniqueIdentifier>{7fdf2297-0d96-4b72-b7bc-cd5478b50b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFParameters">
+      <UniqueIdentifier>{8d5dec0a-7ee2-4b51-9b12-6f9dfc64665e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execution Control\Aux">
+      <UniqueIdentifier>{53745df2-3442-4fe8-9cd7-32e5103e0213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure">
+      <UniqueIdentifier>{a017a929-a561-4a51-bc36-4568c575d639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFInternalModule">
+      <UniqueIdentifier>{dbfba242-55a4-4944-b672-624dbdd86f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFMethod">
+      <UniqueIdentifier>{09068d10-ffb7-4fe3-b359-b3a3d23969c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFMethodNonThread">
+      <UniqueIdentifier>{01263d71-db0d-4301-82c3-05d0408e20cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFMethodThread">
+      <UniqueIdentifier>{897c84f1-aefb-4c01-8992-046cd2932c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFStructure">
+      <UniqueIdentifier>{2391a519-3f41-4ba1-a46d-4336829c223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFStructure\SSFUserModule">
+      <UniqueIdentifier>{2bdd7ee0-bcde-428a-95c3-8eac68063daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFInfo">
+      <UniqueIdentifier>{108d9d75-c4f3-44b0-b1c1-71deccc83d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\FeatBlockInfo">
+      <UniqueIdentifier>{1687a4d8-b861-4a5e-95d2-6fbefa3c1bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\SSFTree">
+      <UniqueIdentifier>{608dbc1a-1014-462d-817c-4f11d760cfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Segmentation">
+      <UniqueIdentifier>{dffc8264-ca7b-4d85-90e2-cc5620b90ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Segmentation\Slic">
+      <UniqueIdentifier>{a8ccaae0-52ad-458f-98ad-15f7c08f43ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers.h">
+      <Filter>SSF</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFStatistics.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="pls.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="LAP.h">
+      <Filter>Shared Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_memory.h">
+      <Filter>Shared Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureExtractionDefs.h">
+      <Filter>Feature Extraction</Filter>
+    </ClInclude>
+    <ClInclude Include="IntensityFeature.h">
+      <Filter>Feature Extraction\Methods\Intensity</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationDefs.h">
+      <Filter>Classification Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationControl.h">
+      <Filter>Classification Methods\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationMethod.h">
+      <Filter>Classification Methods\Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="pls_oaa.h">
+      <Filter>Classification Methods\Methods\PLS One-Against-All</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureBlocks.h">
+      <Filter>Feature Extraction\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractionControl.h">
+      <Filter>Feature Extraction\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureMethods.h">
+      <Filter>Feature Extraction\Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractionMethod.h">
+      <Filter>Feature Extraction\Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Misc\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFThreads.h">
+      <Filter>Structures\SSFThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="parameters.h">
+      <Filter>Misc\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFStorage.h">
+      <Filter>Structures\SSFStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDataKey.h">
+      <Filter>Shared Memory\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDataStream.h">
+      <Filter>Shared Memory\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DetWin.h">
+      <Filter>Structures\DetWin</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFCamera.h">
+      <Filter>Shared Memory\Structures\SSFCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFData.h">
+      <Filter>Shared Memory\Structures\SSFData</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFDetwins.h">
+      <Filter>Structures\SSFDetwins</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFFeed.h">
+      <Filter>Shared Memory\Structures\SSFFeed</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFFeatures.h">
+      <Filter>Structures\SSFFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFRect.h">
+      <Filter>Structures\SSFRect</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFFrame.h">
+      <Filter>Shared Memory\Structures\SSFFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFImage.h">
+      <Filter>Shared Memory\Structures\SSFImage</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFLAPData.h">
+      <Filter>Shared Memory\Structures\SSFLAPData</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFObject.h">
+      <Filter>Shared Memory\Structures\SSFObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFSample.h">
+      <Filter>Shared Memory\Structures\SSFSample</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFSamples.h">
+      <Filter>Shared Memory\Structures\SSFSamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFSlidingWindow.h">
+      <Filter>Shared Memory\Structures\SSFSlidingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFString.h">
+      <Filter>Shared Memory\Structures\SSFString</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFTracklet.h">
+      <Filter>Shared Memory\Structures\SSFTracklet</Filter>
+    </ClInclude>
+    <ClInclude Include="QDA.h">
+      <Filter>Classification Methods\Methods\QDA</Filter>
+    </ClInclude>
+    <ClInclude Include="ap.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="apvt.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="reflections.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="qr.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFDict.h">
+      <Filter>Shared Memory\Structures\SSFDict</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFInvertedList.h">
+      <Filter>Shared Memory\Structures\SSFInvertedList</Filter>
+    </ClInclude>
+    <ClInclude Include="LBP.h">
+      <Filter>Feature Extraction\Methods\LBP</Filter>
+    </ClInclude>
+    <ClInclude Include="LBPFeature.h">
+      <Filter>Feature Extraction\Methods\LBP</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFUserData.h">
+      <Filter>Shared Memory\Structures\SSFUserData</Filter>
+    </ClInclude>
+    <ClInclude Include="SMManager.h">
+      <Filter>Shared Memory\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Shared Memory\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleInfo.h">
+      <Filter>Structures\ScaleInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramFeature.h">
+      <Filter>Feature Extraction\Methods\Color Histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="PredominanceFilter.h">
+      <Filter>Feature Extraction\Methods\Predominance Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFObjectCandidates.h">
+      <Filter>Shared Memory\Structures\SSFObjectCandidates</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFGarbageCollector.h">
+      <Filter>Shared Memory\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFAsync.h">
+      <Filter>Shared Memory\Structures\SSFAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="SSF_SVM.h">
+      <Filter>Classification Methods\Methods\SVM</Filter>
+    </ClInclude>
+    <ClInclude Include="HOG.h">
+      <Filter>Feature Extraction\Methods\HOG</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFEOD.h">
+      <Filter>Shared Memory\Structures\SSFEOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FESMemoryManagement.h">
+      <Filter>Extraction Server\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="FESTemplateMethod.h">
+      <Filter>Extraction Server\Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="FESControl.h">
+      <Filter>Extraction Server\Internal Module</Filter>
+    </ClInclude>
+    <ClInclude Include="FESMethodInstance.h">
+      <Filter>Extraction Server\Execution Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="FESCache.h">
+      <Filter>Extraction Server\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FESMethodManager.h">
+      <Filter>Extraction Server\Execution Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFExecutionControl.h">
+      <Filter>Execution Control</Filter>
+    </ClInclude>
+    <ClInclude Include="timeProfiler.h">
+      <Filter>Misc\Time Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="FESCoocurrence.h">
+      <Filter>Extraction Server\Methods\Co-occurrence</Filter>
+    </ClInclude>
+    <ClInclude Include="FESIntensity.h">
+      <Filter>Extraction Server\Methods\Intensity</Filter>
+    </ClInclude>
+    <ClInclude Include="co_occurrence_general.h">
+      <Filter>Extraction Server\Methods\Co-occurrence</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFQueue.h">
+      <Filter>Structures\SSFQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="FESBlocks.h">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FESData.h">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FESDefs.h">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FESRegion.h">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FESRequest.h">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FES.h">
+      <Filter>Extraction Server</Filter>
+    </ClInclude>
+    <ClInclude Include="FESHOG.h">
+      <Filter>Extraction Server\Methods\HOG</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFMethodControl.h">
+      <Filter>Execution Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFCore.h" />
+    <ClInclude Include="SSFThreadsControl.h">
+      <Filter>Execution Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFParameters.h">
+      <Filter>Structures\SSFParameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFExecutionSequence.h">
+      <Filter>Execution Control\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFInternalModule.h">
+      <Filter>Structures\SSFStructure\SSFInternalModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFMethod.h">
+      <Filter>Structures\SSFStructure\SSFMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFMethodNonThread.h">
+      <Filter>Structures\SSFStructure\SSFMethodNonThread</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFMethodThread.h">
+      <Filter>Structures\SSFStructure\SSFMethodThread</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFStructure.h">
+      <Filter>Structures\SSFStructure\SSFStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFUserModule.h">
+      <Filter>Structures\SSFStructure\SSFUserModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFInfo.h">
+      <Filter>Structures\SSFInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatBlockInfo.h">
+      <Filter>Structures\FeatBlockInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SSFTree.h">
+      <Filter>Structures\SSFTree</Filter>
+    </ClInclude>
+    <ClInclude Include="slic.h">
+      <Filter>Segmentation\Slic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SSFMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFStatistics.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="pls.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="LAP.cpp">
+      <Filter>Shared Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_memory.cpp">
+      <Filter>Shared Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="IntensityFeature.cpp">
+      <Filter>Feature Extraction\Methods\Intensity</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationControl.cpp">
+      <Filter>Classification Methods\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationMethod.cpp">
+      <Filter>Classification Methods\Template Method</Filter>
+    </ClCompile>
+    <ClCompile Include="pls_oaa.cpp">
+      <Filter>Classification Methods\Methods\PLS One-Against-All</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureBlocks.cpp">
+      <Filter>Feature Extraction\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractionControl.cpp">
+      <Filter>Feature Extraction\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureMethods.cpp">
+      <Filter>Feature Extraction\Template Method</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>Misc\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFThreads.cpp">
+      <Filter>Structures\SSFThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="parameters.cpp">
+      <Filter>Misc\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFStorage.cpp">
+      <Filter>Structures\SSFStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDataKey.cpp">
+      <Filter>Shared Memory\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDataStream.cpp">
+      <Filter>Shared Memory\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DetWin.cpp">
+      <Filter>Structures\DetWin</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFCamera.cpp">
+      <Filter>Shared Memory\Structures\SSFCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFData.cpp">
+      <Filter>Shared Memory\Structures\SSFData</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFDetwins.cpp">
+      <Filter>Structures\SSFDetwins</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFFeed.cpp">
+      <Filter>Shared Memory\Structures\SSFFeed</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFFeatures.cpp">
+      <Filter>Structures\SSFFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFRect.cpp">
+      <Filter>Structures\SSFRect</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFFrame.cpp">
+      <Filter>Shared Memory\Structures\SSFFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFImage.cpp">
+      <Filter>Shared Memory\Structures\SSFImage</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFLAPData.cpp">
+      <Filter>Shared Memory\Structures\SSFLAPData</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFObject.cpp">
+      <Filter>Shared Memory\Structures\SSFObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFSample.cpp">
+      <Filter>Shared Memory\Structures\SSFSample</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFSamples.cpp">
+      <Filter>Shared Memory\Structures\SSFSamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFSlidingWindow.cpp">
+      <Filter>Shared Memory\Structures\SSFSlidingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFString.cpp">
+      <Filter>Shared Memory\Structures\SSFString</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFTracklet.cpp">
+      <Filter>Shared Memory\Structures\SSFTracklet</Filter>
+    </ClCompile>
+    <ClCompile Include="QDA.cpp">
+      <Filter>Classification Methods\Methods\QDA</Filter>
+    </ClCompile>
+    <ClCompile Include="ap.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="reflections.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="qr.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFDict.cpp">
+      <Filter>Shared Memory\Structures\SSFDict</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFInvertedList.cpp">
+      <Filter>Shared Memory\Structures\SSFInvertedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LBP.cpp">
+      <Filter>Feature Extraction\Methods\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="LBPFeature.cpp">
+      <Filter>Feature Extraction\Methods\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFUserData.cpp">
+      <Filter>Shared Memory\Structures\SSFUserData</Filter>
+    </ClCompile>
+    <ClCompile Include="SMManager.cpp">
+      <Filter>Shared Memory\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="structures.cpp">
+      <Filter>Shared Memory\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramFeature.cpp">
+      <Filter>Feature Extraction\Methods\Color Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="PredominanceFilter.cpp">
+      <Filter>Feature Extraction\Methods\Predominance Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFObjectCandidates.cpp">
+      <Filter>Shared Memory\Structures\SSFObjectCandidates</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFGarbageCollector.cpp">
+      <Filter>Shared Memory\Auxiliar</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFAsync.cpp">
+      <Filter>Shared Memory\Structures\SSFAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="SSF_SVM.cpp">
+      <Filter>Classification Methods\Methods\SVM</Filter>
+    </ClCompile>
+    <ClCompile Include="HOG.cpp">
+      <Filter>Feature Extraction\Methods\HOG</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFEOD.cpp">
+      <Filter>Shared Memory\Structures\SSFEOD</Filter>
+    </ClCompile>
+    <ClCompile Include="FESMemoryManagement.cpp">
+      <Filter>Extraction Server\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="FESTemplateMethod.cpp">
+      <Filter>Extraction Server\Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="FESControl.cpp">
+      <Filter>Extraction Server\Internal Module</Filter>
+    </ClCompile>
+    <ClCompile Include="FESMethodInstance.cpp">
+      <Filter>Extraction Server\Execution Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="FESMethodManager.cpp">
+      <Filter>Extraction Server\Execution Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="FESCache.cpp">
+      <Filter>Extraction Server\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SSFExecutionControl.cpp">
+      <Filter>Execution Control</Filter>
+    </ClCompile>
+    <ClCompile Include="timeProfiler.cpp">
+      <Filter>Misc\Time Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="FESCoocurrence.cpp">
+      <Filter>Extraction Server\Methods\Co-occurrence</Filter>
+    </ClCompile>
+    <ClCompile Include="FESIntensity.cpp">
+      <Filter>Extraction Server\Methods\Intensity</Filter>
+    </ClCompile>
+    <ClCompile Include="co_occurrence_general.cpp">
+      <Filter>Extraction Server\Methods\Co-occurrence</Filter>
+    </ClCompile>
+    <ClCompile Include="FESBlocks.cpp">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FESData.cpp">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FESRegion.cpp">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FESRequest.cpp">
+      <Filter>Extraction Server\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FESHOG.cpp">
+      <Filter>Extraction Server\Methods\HOG</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFMethodControl.cpp">
+      <Filter>Execution Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFThreadsControl.cpp">
+      <Filter>Execution Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFParameters.cpp">
+      <Filter>Structures\SSFParameters</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFExecutionSequence.cpp">
+      <Filter>Execution Control\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFInternalModule.cpp">
+      <Filter>Structures\SSFStructure\SSFInternalModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFMethod.cpp">
+      <Filter>Structures\SSFStructure\SSFMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFMethodNonThread.cpp">
+      <Filter>Structures\SSFStructure\SSFMethodNonThread</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFMethodThread.cpp">
+      <Filter>Structures\SSFStructure\SSFMethodThread</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFStructure.cpp">
+      <Filter>Structures\SSFStructure\SSFStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFUserModule.cpp">
+      <Filter>Structures\SSFStructure\SSFUserModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SSFInfo.cpp">
+      <Filter>Structures\SSFInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="slic.cpp">
+      <Filter>Segmentation\Slic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

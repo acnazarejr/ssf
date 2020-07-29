@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ModHaarDetector.h">
+      <Filter>Haar Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="ModOAAPLSRecognition.h">
+      <Filter>OAA PLS Recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="ModPLSDetector.h">
+      <Filter>PLS Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="ModDetRandomFiltering.h">
+      <Filter>Random Filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="ModPLSDetectorFeat.h">
+      <Filter>PLS Detector Feat</Filter>
+    </ClInclude>
+    <ClInclude Include="ModHogDetector.h">
+      <Filter>HOG Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="ModKalmanTracking.h">
+      <Filter>Kalman Filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PLS Detector">
+      <UniqueIdentifier>{9663731c-1555-45c7-931f-f9eae460c2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Haar Detector">
+      <UniqueIdentifier>{697669c9-860e-4347-b521-00c791765ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAA PLS Recognition">
+      <UniqueIdentifier>{8a9b0ee7-ef23-450a-b0b2-b486f815fce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Filtering">
+      <UniqueIdentifier>{03bec335-012f-45b6-90d6-6267976d5394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLS Detector Feat">
+      <UniqueIdentifier>{f604fec4-a4d0-4eda-8eac-d2b10d03e64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOG Detector">
+      <UniqueIdentifier>{0341d5c4-97f7-4b38-9cd8-fdf9974fcd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalman Filter">
+      <UniqueIdentifier>{9b6a0fec-9d51-4f96-a806-0e57ee34ae6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModHaarDetector.cpp">
+      <Filter>Haar Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="ModOAAPLSRecognition.cpp">
+      <Filter>OAA PLS Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="ModPLSDetector.cpp">
+      <Filter>PLS Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="ModDetRandomFiltering.cpp">
+      <Filter>Random Filtering</Filter>
+    </ClCompile>
+    <ClCompile Include="ModPLSDetectorFeat.cpp">
+      <Filter>PLS Detector Feat</Filter>
+    </ClCompile>
+    <ClCompile Include="ModHogDetector.cpp">
+      <Filter>HOG Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="ModKalmanTracking.cpp">
+      <Filter>Kalman Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

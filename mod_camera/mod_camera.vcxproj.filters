@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Control Camera IP">
+      <UniqueIdentifier>{f79ec492-6a50-47ee-ab5d-42bfc8519de1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModControlCameraIP.h">
+      <Filter>Control Camera IP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModControlCameraIP.cpp">
+      <Filter>Control Camera IP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

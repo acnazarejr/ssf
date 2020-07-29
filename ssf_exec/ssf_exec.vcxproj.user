@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\WorkDir\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(ProjectDir);..\..\..\libs\cuda_v5-5-0\bin;..\..\..\libs\opencv_v2-4-6\bin;..\..\..\libs\pthread-win32-x64_v2-9-1;..\..\..\libs\qt_v5-1-0\bin;%PATH%;
+QT_QPA_PLATFORM_PLUGIN_PATH=..\..\..\libs\qt_v5-1-0\plugins\platforms</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\WorkDir</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(ProjectDir);..\..\..\libs\cuda_v5-5-0\bin;..\..\..\libs\opencv_v2-4-6\bin;..\..\..\libs\pthread-win32-x64_v2-9-1;..\..\..\libs\qt_v5-1-0\bin;%PATH%;
+QT_QPA_PLATFORM_PLUGIN_PATH=..\..\..\libs\qt_v5-1-0\plugins\platforms</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

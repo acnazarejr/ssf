@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ModDetResults.h">
+      <Filter>Detection Results</Filter>
+    </ClInclude>
+    <ClInclude Include="ModFileList.h">
+      <Filter>File List</Filter>
+    </ClInclude>
+    <ClInclude Include="ModImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ModScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ModCameraIP.h">
+      <Filter>Camera IP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModDetResults.cpp">
+      <Filter>Detection Results</Filter>
+    </ClCompile>
+    <ClCompile Include="ModFileList.cpp">
+      <Filter>File List</Filter>
+    </ClCompile>
+    <ClCompile Include="ModImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ModScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="ModCameraIP.cpp">
+      <Filter>Camera IP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Detection Results">
+      <UniqueIdentifier>{ccbd6483-a8e7-43cd-b2fd-91d1dabffa79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File List">
+      <UniqueIdentifier>{742af50e-8715-4f65-a085-bd76b3f3884d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{444d1bcd-0e17-4e51-aa8b-ab4d1274b67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen">
+      <UniqueIdentifier>{41d2421a-bb58-4010-a21a-bef61f6729ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera IP">
+      <UniqueIdentifier>{6baf7b5f-636d-4fb4-bf79-900ac4b8577a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

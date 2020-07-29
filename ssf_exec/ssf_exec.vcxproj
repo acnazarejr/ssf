@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ssf.cpp" />
+    <ClCompile Include="SSFTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mod_auxiliar_modules\mod_auxiliar_modules.vcxproj">
+      <Project>{0f5c1d4d-0a72-4f3d-968e-c0349a6559d3}</Project>
+      <CopyLocal>false</CopyLocal>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\mod_background_subtraction\mod_background_subtraction.vcxproj">
+      <Project>{6520dc19-e35d-44d3-bff9-2f33b3fd02c5}</Project>
+      <CopyLocal>false</CopyLocal>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\mod_camera\mod_camera.vcxproj">
+      <Project>{a564130c-8ac4-4534-8611-009f372a21a5}</Project>
+      <CopyLocal>false</CopyLocal>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\mod_detection\mod_detection.vcxproj">
+      <Project>{fd34e58c-f485-4437-9113-d5a9f4894338}</Project>
+      <CopyLocal>false</CopyLocal>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\mod_filtering\mod_filtering.vcxproj">
+      <Project>{169da8de-5afe-42c8-aa7a-6cc9bf257ccf}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\mod_input_output\mod_input_output.vcxproj">
+      <Project>{db66b917-4c92-4030-a28f-0c03590ed735}</Project>
+      <CopyLocal>false</CopyLocal>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\ssf_core\ssf_core.vcxproj">
+      <Project>{428ad14e-555a-425c-8822-5941cb7d88c0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSFTest.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D16FA4F-011B-4E1D-ACC4-05A92EC71ED0}</ProjectGuid>
+    <RootNamespace>ssf_exec</RootNamespace>
+    <ProjectName>SSFExec</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\include;..\ssf_core;..\mod_activity_recognition;..\mod_auxiliar_modules;..\mod_background_subtraction;..\mod_camera;..\mod_detection;..\mod_filtering;..\mod_input_output;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)\$(Configuration)\</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <LibraryPath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\include;..\ssf_core;..\mod_activity_recognition;..\mod_auxiliar_modules;..\mod_background_subtraction;..\mod_camera;..\mod_detection;..\mod_filtering;..\mod_input_output;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)\$(Configuration)\</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <LibraryPath>..\..\libs\pthread-win32-x64_v2-9-1;..\..\libs\opencv_v2-4-6\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opencv_core246d.lib;opencv_imgproc246d.lib;opencv_highgui246d.lib;opencv_ml246d.lib;opencv_video246d.lib;opencv_features2d246d.lib;opencv_calib3d246d.lib;opencv_objdetect246d.lib;opencv_contrib246d.lib;opencv_legacy246d.lib;opencv_flann246d.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opencv_core246.lib;opencv_imgproc246.lib;opencv_highgui246.lib;opencv_ml246.lib;opencv_video246.lib;opencv_features2d246.lib;opencv_calib3d246.lib;opencv_objdetect246.lib;opencv_contrib246.lib;opencv_legacy246.lib;opencv_flann246.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
